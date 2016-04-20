@@ -1,4 +1,5 @@
 language: c
+os: osx
 script: gcc -o booleans booleans.c
 before_deploy:
   - zip release.zip booleans
