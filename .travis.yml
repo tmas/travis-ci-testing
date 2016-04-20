@@ -1,5 +1,6 @@
 language: c
 script: gcc -o booleans booleans.c
+before_deploy: ./booleans
 deploy:
   provider: releases
   api_key:
