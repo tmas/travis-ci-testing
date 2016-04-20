@@ -7,3 +7,5 @@ deploy:
   file: booleans
   on:
     repo: tmas/travis-ci-testing
+    tags: true
+    all_branches: true
