@@ -3,6 +3,7 @@ os: osx
 script: gcc -o booleans booleans.c
 before_deploy:
   - zip release.zip booleans
+skip_cleanup: true
 deploy:
   provider: releases
   api_key:
